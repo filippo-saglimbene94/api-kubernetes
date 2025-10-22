@@ -17,6 +17,7 @@ class SiteController extends Controller
      */
     public function behaviors()
     {
+        //content negozietor
         return [
             'access' => [
                 'class' => AccessControl::class,
