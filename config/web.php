@@ -46,6 +46,8 @@ $config = [
             'enablePrettyUrl' => true,
             'showScriptName' => false,
             'rules' => [
+                'GET list' => 'movie/list',
+                'GET health' => 'movie/health',
             ],
         ],
     ],
